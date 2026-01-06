@@ -1,0 +1,9 @@
+# Go build artifacts
+cni-macvlan-firewall
+*.exe
+*.exe~
+*.out
+*.test
+
+# Dependency directories
+vendor/
