@@ -122,7 +122,8 @@ job "job" {
 
       cni {
         args = {
-          
+          "NOMAD_JOB_NAME" : "${NOMAD_JOB_NAME}",
+          "MAC": "8e:d7:94:cc:ab:cd"
         }
       }
     }
